@@ -15,6 +15,7 @@ aeronave["altura"] = 16.9
 for k, v in aeronave.items():
     print(f"{k} --> {v}")
 
+"""
 print (f"Modelo: {aeronave["modelo"]}, mide: {aeronave["longitud"]}")
 
 # Diccionario con diferentes tipos de datos como valores
@@ -51,3 +52,4 @@ if "alcance" in aeronave:
 
 # Método get() (devuelve None o un valor por defecto si la clave no existe)
 velocidad = aeronave.get("velocidad_max", "No disponible")
+"""

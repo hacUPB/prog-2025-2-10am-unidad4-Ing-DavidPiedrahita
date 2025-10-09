@@ -1,12 +1,15 @@
 from implementacion import *
 
-opc = int(input("¿Desea calcular el CG de su avión?. Sí (1). No (2): "))
 while True:
+    opc = int(input("Calcular CG\t\t(1). \nElementos del programa\t\t(2). \nSalir\t\t(3)\n\nIngresar opción: "))
     match opc:
         case 1:
             print("Abriendo calculadora ...")
             OP2()
         case 2:
+            print("Elementos del programa")
+            OP3()    
+        case 3:
             print("Saliendo...")
             break
         case _:
